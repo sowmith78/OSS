@@ -45,9 +45,9 @@ Below are instructions to aid in the setting up of this project.
 ## Setup Project in Eclipse
 - Clone the project in Eclipse
 	- Go to File > Import > Git > Projects from Git > Click Next
-	- Select ‘Clone URI’ > Copy the GitHub URL of your project. (avoid including branch into the path). > Type in the Username and Password > Click Next
+	- Select ‘Clone URI’ > Click Next > Copy the GitHub URL of your project. (avoid including branch into the path). > Type in the Username and Password > Click Next
 - Select the stable branch
-	- Select 'Deselect All' > select the stable branch > Click Next
+	- Select 'Deselect All' > Select the stable branch > Click Next
 - Choose the appropriate Directory > Click Next
 - Select Import as general project > Click Next and then Finish.
 
@@ -63,7 +63,7 @@ Below are instructions to aid in the setting up of this project.
 	driverManagerDataSource.setPassword("admin");
 	logger.info("Bean DataSource specifies the MySQL database properties");
 	return driverManagerDataSource;
-    }
+   	}
 ```
 - All you have to do is, create a schema with name oss and update your user name and password with the above properties.
 
@@ -95,9 +95,9 @@ Below are instructions to aid in the setting up of this project.
 		
 ## Build Maven Project
 - If the project is not imported as Maven Project
-	- Right click on project > configure > convert to Maven Project
-- Right click project > run as > Maven Build > write goals as clean install and the click on OK. check if your build is success or not.
-- After the maven build, Right click on the project and click Refresh.
+	- Right click project > Configure > Convert to Maven Project
+- Right click project > Run As > Maven build > write goals as 'clean install' and then Click OK. Check if your build is success or not.
+- After the Maven build, Right click project and Click Refresh.
 
 ## Run Project
 - Right click project > run as > run on server
