@@ -96,8 +96,8 @@ Below are instructions to aid in the setting up of this project.
 ## Build Maven Project
 - If the project is not imported as Maven Project
 	- Right click project > Configure > Convert to Maven Project
-- Right click project > Run As > Maven build > write goals as 'clean install' and then Click OK. Check if your build is success or not.
-- After the Maven build, Right click project and Click Refresh.
+- Right click project > Run As > Maven build > write goals as 'clean install' > Click Run. Check if your build is success or not.
+- After the Maven build, Right click project > Click Refresh.
 
 ## Run Project
 - Right click project > run as > run on server
